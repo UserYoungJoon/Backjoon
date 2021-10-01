@@ -139,8 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="backJoonNevel1.cpp" />
-    <ClCompile Include="level11.h" />
+    <ClCompile Include="Level11.h" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="Level6.h" />
+    <ClInclude Include="Levels1_10.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

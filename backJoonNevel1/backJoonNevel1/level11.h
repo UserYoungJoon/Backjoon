@@ -34,21 +34,5 @@ void blackJack() //2798
 
 void blackJack2()
 {
-    int N, M;
-    int numbers[100];
-    int res = 0;
-    int temp = 0;
-
-
-    int mousePosX = 0;
-    int mousePosY = 0;
-
-    enum class eButtonState {   
-
-    };
-    eButtonState presentState; 
-
-    if(mouseX < mDestRect.x && mousePosY <  mDestRect.x + mDestRect.w)
-        qdjpqowdmjopqjwmf eqip,da mjwo (7คล)
 
 }

@@ -13,13 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Level1~10">
+      <UniqueIdentifier>{5552ce7f-6233-41e8-951c-23cb6a6ad07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level11~20">
+      <UniqueIdentifier>{581d7ea3-6db2-40be-b712-120641a9b59a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="backJoonNevel1.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="level11.h">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Level11.h">
+      <Filter>소스 파일\Level11~20</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Level1.h">
+      <Filter>소스 파일\Level1~10</Filter>
+    </ClInclude>
+    <ClInclude Include="Level6.h">
+      <Filter>소스 파일\Level1~10</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels1_10.h">
+      <Filter>소스 파일\Level1~10</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

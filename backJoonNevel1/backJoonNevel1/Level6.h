@@ -11,7 +11,6 @@ void problem15596(std::vector<int>& a)
 {
 	sum(a);
 }
-
 long long sum(std::vector<int>& a)
 {
 	long long sum = 0;
@@ -22,4 +21,9 @@ long long sum(std::vector<int>& a)
 	}
 
 	return sum;
+}
+
+void problem4673()
+{
+
 }
